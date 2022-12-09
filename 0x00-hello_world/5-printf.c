@@ -1,9 +1,8 @@
 #include <stdio.h>
 /**
-* main: function prints with proper grammar, but the outcome is a piece of art,
-* return: 0 to main 
+* main- prints with proper grammar, but the outcome is a piece of art,
+* Return: 0 for success
 */
-
 
 int main(void)
 {
