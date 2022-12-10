@@ -10,18 +10,28 @@
 
 int main(void)
 {
-		char cha;
 
-		cha = 'a';
 
-		while (cha <= 'z');
-		{
-			if (cha != 'q' && cha != 'e');
-			{
-				putchar(cha);
-			}
-			cha++;
-		}
-		putchar('\n');
-		return (0);
+		char ch = 'a';
+
+
+
+			while (ch <= 'z')
+
+				{
+
+				if (ch != 'e' && ch != 'q')
+
+					{
+
+						putchar(ch);
+
+					
+					}
+					ch++;
+				}
+
+				putchar('\n');
+
+			return (0);
 }
