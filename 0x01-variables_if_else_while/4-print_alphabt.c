@@ -18,9 +18,9 @@ int main(void)
 		{
 			if (cha != 'q' && cha != 'e');
 			{
-			putchar(cha);
+				putchar(cha);
 			}
-		cha++;
+			cha++;
 		}
 		putchar('\n');
 		return (0);
