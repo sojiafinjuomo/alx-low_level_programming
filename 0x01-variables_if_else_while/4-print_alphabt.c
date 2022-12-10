@@ -15,7 +15,6 @@ int main(void)
 		cha = 'a';
 
 		while (cha <= 'z');
-
 		{
 			if (cha != 'q' && cha != 'e');
 			{
