@@ -3,6 +3,7 @@
 /**
  *main- entry points
  *
+ *Description- for loop to creae numbers
  *Return: 0 always success
  *
  */
@@ -11,14 +12,10 @@ int main(void)
 {
 	int a;
 
-	a = 0;
-
-	while (a < 10)
-	{
+	for (a = 0; a < 10; a++)	/* for loop for 10 numbers*/
 		printf("%d", a);
+
 	printf("\n");
-		a++;
-	}
 
 	return (0);
 }
