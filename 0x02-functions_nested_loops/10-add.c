@@ -1,14 +1,18 @@
 #include "main.h"
 /**
- * add- add two numbers
+ * add- two numbers
  *
- * @int: the parameter is an int value
+ * int: int type
+ *
+ * @a: value
+ *
+ * @b: value
  *
  * sum- holds the result of added numbers
  *
  * Return: Always Value
  */
-int add(int a,int b)
+int add(int a, int b)
 {
 	int sum;
 
