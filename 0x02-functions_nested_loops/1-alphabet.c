@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print alphabet - does just that
+ * print_alphabet- print alphabet
  *
  * using putchar &loop
  *
