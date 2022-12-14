@@ -1,21 +1,19 @@
 #include "main.h"
 
 /**
- *main- entry points to the programm
- *void- void for the print_alphabet function
+ * print alphabet - does just that
  *
- *Return: Always nothing success
+ * using putchar &loop
  *
  */
-
 void print_alphabet(void)
 {
 	char ch;
-	
+
 	for (ch = 'a'; ch <= 'z'; ch++)
-		
+
 		_putchar(ch);
-	
+
 	_putchar('\n');
 
 }
