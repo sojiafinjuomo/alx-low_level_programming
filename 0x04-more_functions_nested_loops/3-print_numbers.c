@@ -1,12 +1,8 @@
 #include "main.h"
 /**
-  * print_numbers - Entry point
+  * print_numbers - print 0 to 9
   *
-  * void : type
-  *
-  *_putchar : print output
-  *
-  * Return: Always 0 (suceess)
+  * Return: void
   */
 void print_numbers(void)
 {
@@ -15,5 +11,5 @@ void print_numbers(void)
 	for (ch = 48; ch <= 57; ch++)
 		_putchar(ch);
 		_putchar('\n');
-	return (0);
+
 }
