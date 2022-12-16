@@ -6,7 +6,7 @@
   *
   * @b: parameter
   *
-  * Return: 1 Always success
+  * Return: Always 1 (success)
   */
 
 int mul(int a, int b)
@@ -14,6 +14,5 @@ int mul(int a, int b)
 	int prod;
 
 	prod = (a * b);
-	
 	return (prod);
 }
