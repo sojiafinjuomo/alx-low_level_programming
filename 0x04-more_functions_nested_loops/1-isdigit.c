@@ -1,12 +1,12 @@
 #include "main.h"
 /**
-  * _isdigit - entry point
+  * _isdigit- Entry point
   *
   * int: data type
   *
   * @c: expected return value
   *
-  * Return : 1 Always
+  * Return: Always 1 (success)
  */
 
 int _isdigit(int c)
