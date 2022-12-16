@@ -4,10 +4,11 @@
   *
   * int: data type
   *
-  * @c: integer valu to be checked
+  * @c: expected return value
   *
-  * Return : Always 1 or 0
+  * Return : 1 Always
  */
+
 int _isdigit(int c)
 {
 if (c >= 0 && c <= 9)
