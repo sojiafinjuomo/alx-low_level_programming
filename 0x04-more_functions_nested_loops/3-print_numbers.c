@@ -1,10 +1,12 @@
 #include "main.h"
 /**
-  * print_number - entry point
+  * print_numbers - Entry point
   *
-  * @ch: parameter
+  * void : type
   *
-  * _putchar : print output
+  *_putchar : print output
+  *
+  * Return: Always 0 (suceess)
   */
 void print_numbers(void)
 {
