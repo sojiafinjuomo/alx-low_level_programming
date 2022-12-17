@@ -2,13 +2,13 @@
 /**
   * print_last_digit - prin last digit
   *
-  * @int: int valu to be returned
+  * @i: digit to be printed
   *
-  * Return: the last digit of @last
+  * Return: the last digit of @i
   */
-int print_last_digit(int)
+int print_last_digit(int i)
 {
-	int i, last;
+	int last;
 
 	last = i % 10;
 
@@ -18,6 +18,4 @@ int print_last_digit(int)
 	}
 	_putchar(last);
 	return (last);
-	}
-
 }
