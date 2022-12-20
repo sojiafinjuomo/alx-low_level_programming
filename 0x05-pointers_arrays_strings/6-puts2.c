@@ -2,7 +2,7 @@
 /**
   * puts2 - function to print other numbers
   * @str: pointer variable
-  *
+  * 
   */
 void puts2(char *str)
 {
@@ -15,6 +15,4 @@ void puts2(char *str)
 		i += 2;
 	}
 	_putchar('\n');
-
-
 }
