@@ -1,7 +1,7 @@
 #include "main.h"
 /**
-  * puts_half - function to print half
-  * @count: as index
+  * puts_half - function to print half string
+  * @str: pointer variable
   *
   */
 void puts_half(char *str)
@@ -12,7 +12,7 @@ void puts_half(char *str)
 	count = 0;
 	while (str[count] != '\n')
 	{
-		count++
+		count++;
 	}
 	if (count % 2 == 0)
 	{
@@ -23,6 +23,11 @@ void puts_half(char *str)
 	}
 	else if (count % 2)
 	{
-	
-
+		for (j = (count - 1) / 2; j < (count - 1); j++)
+		{
+			_putchar(str[j + 1]);
+		}
+	}
+	_putchar('\n');
 }
+
