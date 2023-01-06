@@ -3,9 +3,20 @@
   * _strpbrk - function for strpbrk
   * @s: pointer parametr
   * @accept: second parametr
-  * Return: Always 0
+  * Return: return @s and nonzero
   */
 char *_strpbrk(char *s, char *accept)
 {
-	return (0);
+	int i;
+
+	while (*s)
+	{
+		for (i = 0; accept[i]; i++)
+		{
+			if (*s == accept[i])
+				return (s);
+		}
+		s++;
+	}
+	return ('\0');
 }

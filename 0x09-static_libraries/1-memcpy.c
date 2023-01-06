@@ -4,10 +4,15 @@
   * @dest: destination
   * @src: source
   * @n: parameter
-  * Return: Alaways 0
+  * Return: @dest
   */
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
+	unsigned int i;
 
-	return (0);
+	for (i = 0; i < n; i++)
+	{
+		dest[i] = src[i];
+	}
+	return (dest);
 }
