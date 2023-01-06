@@ -2,9 +2,12 @@
 /**
   * _puts - function for puts
   * @s: pointer parameter
-  * Return: Always 0
   */
 void _puts(char *s)
 {
-	return (0);
+	while (*s != '\0')
+	{
+		_putchar(*s++);
+	}
+	_putchar('\n');  
 }
