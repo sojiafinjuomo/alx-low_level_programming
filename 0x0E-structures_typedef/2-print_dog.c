@@ -7,7 +7,7 @@
   */
 void print_dog(struct dog *d)
 {
-	if (d->name == NULL || d->age < 0 || d->owner == NULL)
+	if (d->age < 0 || d->owner == NULL)
 		printf("(nil\n");
 	if (d->name == NULL)
 		printf("Name: (nil)\n");
