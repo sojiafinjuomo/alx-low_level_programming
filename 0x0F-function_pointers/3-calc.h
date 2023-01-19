@@ -1,5 +1,5 @@
-#ifndef _HEADER_
-#define _HEADER_
+#ifndef FUNCTIONPOINTERS_H
+#define FUNCTIONPOINTERS_H
 /**
   * struct op - Struct op
   *
