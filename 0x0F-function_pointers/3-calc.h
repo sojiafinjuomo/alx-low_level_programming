@@ -1,5 +1,6 @@
 #ifndef FUNCTIONPOINTERS_H
 #define FUNCTIONPOINTERS_H
+#include <string.h>
 /**
   * struct op - Struct op
   *
@@ -19,3 +20,5 @@ int op_mod(int a, int b);
 int (*get_op_func(char *s))(int, int);
 
 #endif
+
+
