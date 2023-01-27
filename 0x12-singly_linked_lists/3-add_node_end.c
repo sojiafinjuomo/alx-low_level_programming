@@ -1,6 +1,6 @@
+#include <string.h>
 #include "lists.h"
 #include <stdlib.h>
-#include <string.h>
 /**
   * add_node_end -  new node at the end of a list_t list at the end
   * @head: pointer to start of the list
@@ -46,3 +46,4 @@ list_t *add_node_end(list_t **head, const char *str)
 		new->len = i;
 	}
 	return (new);
+}
