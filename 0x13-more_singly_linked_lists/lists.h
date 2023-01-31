@@ -4,7 +4,7 @@
 
 /**
   * struct node - userdefined type
-  * @str: string
+  * @n: int
   * @next: pointer
   */
 
