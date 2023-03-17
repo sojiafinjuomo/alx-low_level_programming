@@ -12,11 +12,11 @@ size_t print_dlistint(const dlistint_t *h)
 {
 	size_t node_count = 0;
 
-	while (h != 0)
+	while (h)
 	{
+		node_count++;
 		printf("%d elements\n", h->n);
 		h = h->next;
-		node_count++;
 	}
 	return (node_count);
 
